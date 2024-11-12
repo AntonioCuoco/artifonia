@@ -7,7 +7,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB6LQktjK2TbpR7hOIdtnk50SVJ1ZbHpIA",
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
   authDomain: "artifonia-31f28.firebaseapp.com",
   projectId: "artifonia-31f28",
   storageBucket: "artifonia-31f28.firebasestorage.app",
